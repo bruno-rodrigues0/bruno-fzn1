@@ -5,6 +5,9 @@ export default function App() {
   return (
     <>
       <Header />
+      <main>
+        <p>conteúdo...</p>
+      </main>
       <Footer />
     </>
   );
