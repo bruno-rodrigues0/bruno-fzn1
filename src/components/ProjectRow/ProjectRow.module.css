@@ -19,18 +19,14 @@
     transition: .5s;
 }
 
-.projeto:hover{
-    transform: scale(1.075);
-}
+.projeto:hover{transform: scale(1.075);}
     
 h3{
     font-family: "League Spartan";
     font-size: 24px;
 }
 
-span{
-    font-family: "Roboto";
-}
+span{font-family: "Roboto";}
 
 .zoom{
     transform: scale(1.5);
