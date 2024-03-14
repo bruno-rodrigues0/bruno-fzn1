@@ -1,0 +1,32 @@
+@import url('/src/index.css');
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-family: "League Spartan";
+    line-height: 1.75;
+    height: 400px;
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contato{
+    display: block;
+}
+
+.footer img{
+    width: 40px;
+}
