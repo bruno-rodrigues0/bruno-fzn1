@@ -1,0 +1,36 @@
+@import url("/src/index.css");
+
+.skillGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.abmeArea{
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+h1{
+    margin-bottom: 1rem;
+    font-family: "League Spartan";
+}
+
+p{
+    font-family: "Roboto";
+}
+
+.skills{
+    display: flex; align-items: center;
+    height: 64px;
+}
+
+.skills img{width: 24px;}
+
+.skills span{
+    color: #000;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.box{margin-block: 5rem;}
