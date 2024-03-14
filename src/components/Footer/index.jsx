@@ -1,4 +1,5 @@
 import styles from './Footer.module.css'
+import autor from '../../json/db.json'
 
 function Navigator(){
     return(
@@ -13,8 +14,8 @@ function Navigator(){
 function Contact(){
     return(
         <div className={ styles.contato }>
-            <span>brunorodriguesmtv0@gmail.com</span><br />
-            <span>+55 (38) 997375691</span>
+            <span>{ autor.email }</span><br />
+            <span>{ autor.tel }</span>
         </div>
     );
 }
