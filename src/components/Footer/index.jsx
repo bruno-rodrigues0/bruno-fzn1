@@ -22,9 +22,11 @@ function Contact(){
 export default function Footer(){
     return (
         <footer className={ styles.footer }>
-            <Navigator />   
-            <Contact />
-            <img src="/images/rpLogoWhite.png" alt="Logo do site" />
+            <div className={ styles.container }>
+                <Navigator />
+                <Contact />
+                <img src="/images/rpLogoWhite.png" alt="Logo do site" />
+            </div>
         </footer>
     );
 }
