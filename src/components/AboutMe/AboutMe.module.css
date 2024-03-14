@@ -3,6 +3,7 @@
 .skillGrid{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    column-gap: 6rem;
 }
 
 .abmeArea{
@@ -12,7 +13,7 @@
 }
 
 h1{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-family: "League Spartan";
 }
 
