@@ -1,0 +1,38 @@
+@import url(/src/index.css);
+
+.row{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.projeto{
+    
+    height: 400px;
+    width: 20%;
+    background-color: #000;
+    padding: 2rem;
+    color: white;
+    line-height: 1.5;
+    transition: .5s;
+}
+
+.projeto:hover{
+    transform: scale(1.075);
+}
+    
+h3{
+    font-family: "League Spartan";
+    font-size: 24px;
+}
+
+span{
+    font-family: "Roboto";
+}
+
+.zoom{
+    transform: scale(1.5);
+    transition: .5s;
+}
