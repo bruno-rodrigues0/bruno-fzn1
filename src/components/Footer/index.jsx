@@ -1,12 +1,11 @@
 import styles from './Footer.module.css'
-import autor from '../../json/db.json'
 
 function Navigator(){
     return(
         <ul className={ styles.ul }>
-            <a href="../../Projects."><li>Projetos</li></a>
-            <a href="#"><li>Sobre</li></a>
-            <a href="#"><li>Contato</li></a>
+            <li>Projetos</li>
+            <li>Sobre</li>
+            <li>Contato</li>
         </ul>
     );
 }
@@ -14,8 +13,8 @@ function Navigator(){
 function Contact(){
     return(
         <div className={ styles.contato }>
-            <span>{ autor.email }</span><br />
-            <span>{ autor.tel }</span>
+            <span>brunorodriguesmtv0@gmail.com</span><br />
+            <span>+55 (38) 997375691</span>
         </div>
     );
 }
@@ -25,7 +24,7 @@ export default function Footer(){
         <footer className={ styles.footer }>
             <Navigator />   
             <Contact />
-            <a href="#"><img src="/images/rpLogoWhite.png" alt="Logo do site" /></a>
+            <img src="/images/rpLogoWhite.png" alt="Logo do site" />
         </footer>
     );
 }
