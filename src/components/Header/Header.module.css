@@ -1,11 +1,10 @@
 @import url('/src/index.css');
 
 .header{
-    height: 660px;
+    height: 810px;
     max-width: 100%;
     display: flex;
     flex-direction: column;
-
     gap: 30%;
     align-items: center;
     background-color: #000;
