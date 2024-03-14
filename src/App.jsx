@@ -4,7 +4,7 @@ import Header from "./components/Header";
 export default function App() {
   return (
     <>
-      <Header />
+      <Header title={"BRUNO RODRIGUES"} subtitle={"FRONTEND DEV"}/>
       <main>
         <p>conteúdo...</p>
       </main>

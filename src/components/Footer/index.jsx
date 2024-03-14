@@ -4,7 +4,7 @@ import autor from '../../json/db.json'
 function Navigator(){
     return(
         <ul className={ styles.ul }>
-            <a href="#"><li>Projetos</li></a>
+            <a href="../../Projects."><li>Projetos</li></a>
             <a href="#"><li>Sobre</li></a>
             <a href="#"><li>Contato</li></a>
         </ul>
