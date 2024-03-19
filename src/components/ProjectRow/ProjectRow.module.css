@@ -20,6 +20,12 @@
     
 }
 
+.projeto ul{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-inline-start: 1rem;
+}
+
 .projeto ul li{
     list-style: none;
     padding-block: .4rem;

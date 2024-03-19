@@ -2,6 +2,7 @@ import styles from "./ProjectRow.module.css";
 import dbproj from "../../json/projetos.json";
 
 export function ProjectCard({ titulo, tec, img }) {
+  tec = [...tec]
   return (   
         <div 
           className={styles.projeto} 
@@ -11,7 +12,9 @@ export function ProjectCard({ titulo, tec, img }) {
           <span>Tecnologias utilizadas: </span><br />
 
           <ul>
-            <li><span>{ tec }</span></li>
+            { tec.map(item => {
+              return <li><span>{ item }</span></li>
+            }) }
           </ul>
           
         </div>
