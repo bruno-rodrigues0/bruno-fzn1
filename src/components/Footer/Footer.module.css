@@ -39,3 +39,8 @@ span{
     width: 40px;
     height: 40px;
 }
+
+.link{
+    text-decoration: none;
+    color: white;
+}

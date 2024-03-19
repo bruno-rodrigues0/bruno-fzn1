@@ -1,11 +1,18 @@
 import styles from './Footer.module.css'
+import { Link } from 'react-router-dom'
 
 function Navigator(){
     return(
         <ul className={ styles.ul }>
-            <li>Projetos</li>
-            <li>Sobre</li>
-            <li>Contato</li>
+            <Link to="/Projetos" className={ styles.link }>
+                <li>Projetos</li>
+            </Link>
+            <Link to="/Sobre" className={ styles.link }>
+                <li>Sobre</li>
+            </Link>
+            <Link to="/Contato" className={ styles.link }>
+                <li>Contato</li>
+            </Link>
         </ul>
     );
 }
