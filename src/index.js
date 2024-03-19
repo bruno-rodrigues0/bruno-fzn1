@@ -13,6 +13,8 @@ import ContactPage from './routes/contact/ContactPage';
 import Error from './routes/error';
 import HomePage from './routes/home/HomePage';
 
+// sistema de rotas padraão
+
 // const router = createBrowserRouter([
 //   {
 //     path: "/",
@@ -27,6 +29,10 @@ import HomePage from './routes/home/HomePage';
 //     element: <ContactPage />
 //   }
 // ])
+
+
+
+// sistema de rotas utilizando a App page como main (possibilita a utilização do outlet e errorElement)
 
 const router = createBrowserRouter([
   {
