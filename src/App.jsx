@@ -3,7 +3,6 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ImageRow from "./components/ProjectRow";
 import Button from "./components/Button";
-
 import styles from "./App.module.css"
 
 export default function App() {
