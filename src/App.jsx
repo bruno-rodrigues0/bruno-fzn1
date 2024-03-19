@@ -4,14 +4,18 @@ import Header from "./components/Header";
 import ImageRow from "./components/ProjectRow";
 import Button from "./components/Button";
 
+import styles from "./App.module.css"
+
 export default function App() {
   return (
     <>
       <Header title={"BRUNO RODRIGUES"} subtitle={"FRONTEND DEV"}/>
       <AboutMeArea />
       <ImageRow />
-      <Button text="Todos os projetos"/>
-      <Button text="Contate-me"/>
+        <div className={ styles.projectsBtn }>
+          <Button text="Todos os projetos"/>
+          <Button text="Contate-me"/>
+        </div>
       <Footer />
     </>
   );

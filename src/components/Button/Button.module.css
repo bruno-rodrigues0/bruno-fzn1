@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=League+Gothic&family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.button{
+    min-width: 250px;
+    background-color: #d9d9d9;
+    border-radius: 6px;
+    padding: 1.3rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background-color: #c9c9c9;
+}
+
+.button p{
+    color: black;
+    font-size: 1.2rem;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+p > span {
+    color: black;
+    font-family: "JetBrains Mono";
+}
+
+
