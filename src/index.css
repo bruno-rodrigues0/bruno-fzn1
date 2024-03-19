@@ -26,4 +26,7 @@ code {
     monospace;
 }
 
-
+html{
+  overflow-y: visible;
+  overflow-x: hidden;
+}
