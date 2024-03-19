@@ -9,14 +9,20 @@
 }
 
 .projeto{
-    
     height: 400px;
     width: 20%;
-    background-color: #000;
+    background-color: #111;
     padding: 2rem;
     color: white;
     line-height: 1.5;
     transition: .5s;
+    border-radius: 8px;
+    
+}
+
+.projeto ul li{
+    list-style: none;
+    padding-block: .4rem;
 }
 
 .projeto:hover{transform: scale(1.075);}
@@ -31,4 +37,13 @@ span{font-family: "Roboto";}
 .zoom{
     transform: scale(1.5);
     transition: .5s;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.bg-image{
+    position: absolute;
+    
 }

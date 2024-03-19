@@ -1,16 +1,19 @@
 [
     {
         "title": "COLSIF",
-        "tecnologies": ["HTML", "CSS", "JavaScript"]
+        "tecnologies": ["HTML", "CSS", "JavaScript"],
+        "url": "images/project-card-image-size 1.png"
     },
 
     {
         "title": "Port React",
-        "tecnologies": ["ReactJS"]
+        "tecnologies": ["ReactJS"],
+        "url": "images/project-card-image-size 1.png"
     },
 
     {
         "title": "Portifólio",
-        "tecnologies": ["ReactJs"]
+        "tecnologies": ["ReactJs"],
+        "url": "images/project-card-image-size 1.png"
     }
 ]
