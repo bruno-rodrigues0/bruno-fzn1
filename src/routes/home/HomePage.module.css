@@ -1,0 +1,7 @@
+.projectsBtn{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5rem;
+}
