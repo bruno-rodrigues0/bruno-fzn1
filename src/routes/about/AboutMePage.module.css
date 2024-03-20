@@ -3,7 +3,14 @@
     margin: auto;
 }
 
-p{
+.paragraph{
     text-align: justify;
     margin-block: 1rem;
+}
+
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
 }
