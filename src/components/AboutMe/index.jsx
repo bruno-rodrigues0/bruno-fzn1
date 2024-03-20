@@ -1,6 +1,6 @@
 import styles from "./AboutMe.module.css";
 
-function Box({ title, children }){
+export default function Box({ title, children }){
     return (
         <div className={ styles.box }>
             <h1>{ title }</h1>
@@ -36,7 +36,7 @@ function GridElemt({ imgId, imgAlt }){
   );
 }
 
-export default function AboutMeArea() {
+export function AboutMeArea() {
   return (
     <div className={ styles.abmeArea }>
         <Box title={"Sobre mim"}>

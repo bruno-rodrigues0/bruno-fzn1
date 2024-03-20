@@ -7,7 +7,7 @@ function Navigator(){
             <Link to="/Projetos" className={ styles.link }>
                 <li>Projetos</li>
             </Link>
-            <Link to="/Sobre" className={ styles.link }>
+            <Link to="/SobreMim" className={ styles.link }>
                 <li>Sobre</li>
             </Link>
             <Link to="/Contato" className={ styles.link }>

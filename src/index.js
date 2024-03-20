@@ -12,6 +12,7 @@ import ProjectsPage from './routes/projects/ProjectsPage';
 import ContactPage from './routes/contact/ContactPage';
 import Error from './routes/error';
 import HomePage from './routes/home/HomePage';
+import AbouteMePage from './routes/about/AboutMePage';
 
 // sistema de rotas padraão
 
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: "/Contato",
         element: <ContactPage />
+      },
+      {
+        path: "/SobreMim",
+        element: <AbouteMePage />
       }
     ]
   },

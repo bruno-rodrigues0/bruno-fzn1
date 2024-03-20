@@ -1,5 +1,5 @@
 import Header from "../../components/Header";
-import AboutMeArea from "../../components/AboutMe";
+import { AboutMeArea } from "../../components/AboutMe";
 import ImageRow from "../../components/ProjectRow";
 import Button from "../../components/Button";
 import { Link } from 'react-router-dom'

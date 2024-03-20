@@ -18,7 +18,6 @@ export default function ProjectsPage(){
                 <Button text={"Contate-me"}/>
             </Link>
         </div>
-
         </>
     );
 }
