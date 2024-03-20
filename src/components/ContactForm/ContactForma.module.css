@@ -1,0 +1,43 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.area{
+    display: flex;
+    flex-flow: column wrap;
+    gap: .5rem;
+}
+
+form{
+    font-family: "Roboto";
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5rem;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 420px;
+    padding: .7rem .7rem .1rem .3rem;
+}
+
+.msg{
+    width: 951.5px;
+}
+
+input::content{
+    font-size: 1rem;
+}
+
+h2{
+    font-size: 32px;
+    font-family: "League Spartan";
+}
+
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
