@@ -24,7 +24,7 @@ export function ProjectCard({ titulo, tec, img }) {
 export default function ImageRow() {
   return (
     <div className={styles.row}>
-      {dbproj.map((projetos) => (
+      {dbproj.slice(0, 3).map((projetos) => (
         <ProjectCard 
           titulo={projetos.title} 
           tec={projetos.tecnologies} 

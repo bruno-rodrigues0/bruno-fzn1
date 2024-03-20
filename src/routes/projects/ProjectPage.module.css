@@ -1,0 +1,13 @@
+.container{
+    padding-block: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
