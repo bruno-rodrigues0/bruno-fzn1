@@ -10,12 +10,17 @@
 .projeto{
     height: 400px;
     width: 20%;
-    background-color: #111;
+    background-color: #111111eb;
     padding: 2rem;
     color: white;
     line-height: 1.5;
     transition: .5s;
     border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    background-position-x: 90%;
+    background-size: 70%;
+    text-decoration: none;;
     
 }
 

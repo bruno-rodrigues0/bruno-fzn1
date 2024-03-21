@@ -2,18 +2,21 @@
     {
         "title": "COLSIF",
         "tecnologies": ["HTML", "CSS", "JavaScript"],
-        "url": "images/project-card-image-size 1.png"
+        "url": "images/COLSIF.png",
+        "link": "https://github.com/bruno-rodrigues0/COLSIF"
     },
 
     {
         "title": "Port React",
         "tecnologies": ["ReactJS"],
-        "url": "images/project-card-image-size 1.png"
+        "url": "images/project-card-image-size 1.png",
+        "link": ""
     },
 
     {
         "title": "Portifólio",
         "tecnologies": ["ReactJs"],
-        "url": "images/project-card-image-size 1.png"
+        "url": "images/project-card-image-size 1.png",
+        "link": "https://github.com/bruno-rodrigues0/bruno-fzn1"
     }
 ]
