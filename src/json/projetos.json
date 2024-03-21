@@ -9,14 +9,14 @@
     {
         "title": "Port React",
         "tecnologies": ["ReactJS"],
-        "url": "images/project-card-image-size 1.png",
+        "url": "",
         "link": ""
     },
 
     {
         "title": "Portifólio",
         "tecnologies": ["ReactJs"],
-        "url": "images/project-card-image-size 1.png",
+        "url": "images/rpLogoWhite.png",
         "link": "https://github.com/bruno-rodrigues0/bruno-fzn1"
     }
 ]
