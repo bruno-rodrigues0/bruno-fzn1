@@ -40,7 +40,7 @@ export function AboutMeArea() {
   return (
     <div className={ styles.abmeArea }>
         <Box title={"Sobre mim"}>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas repellat similique distinctio impedit. Suscipit voluptatem autem laboriosam architecto, iure itaque tempora recusandae aspernatur vitae blanditiis rerum! Dignissimos culpa incidunt aliquam.</p>
+            <p>Salve! Prazer, me chamo <strong>Bruno</strong>. Tenho 17 anos atualmente e sou estudante do curso de Informática para Internet do <strong>IF - Campus</strong> Guanambi. Sou apaixonado por tecnologia e tenho um vicio em estar sempre aprendendo novas tecnologias. Nesse momento estou aprendendo a utilizar o <strong>React JS</strong> como Framework principal.</p>
         </Box>
 
         <Box title={"Minhas habilidades"}>
