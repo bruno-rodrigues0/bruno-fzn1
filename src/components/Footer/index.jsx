@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 function Navigator(){
     return(
         <ul className={ styles.ul }>
-            <Link to="/Projetos" className={ styles.link }>
+            <Link to="/Projetos" className={ styles.link } onClick={() => window.scrollTo(0, 0)}>
                 <li>Projetos</li>
             </Link>
-            <Link to="/SobreMim" className={ styles.link }>
+            <Link to="/SobreMim" className={ styles.link } onClick={() => window.scrollTo(0, 0)}>
                 <li>Sobre</li>
             </Link>
-            <Link to="/Contato" className={ styles.link }>
+            <Link to="/Contato" className={ styles.link } onClick={() => window.scrollTo(0, 0)}>
                 <li>Contato</li>
             </Link>
         </ul>
